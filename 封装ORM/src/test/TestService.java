@@ -8,12 +8,13 @@ import java.util.List;
 public class TestService {
 
     public static void main(String[] args) {
-        StudentService service = new StudentService();
+//        StudentService service = new StudentService();
 //        service.insert(new Student(4,"小六","男",6));
-        Student student = service.selectOne(1);
-        System.out.println(student);
-        List<Student> list = service.studentList();
-        System.out.println(list);
+//        Student student = service.selectOne(1);
+//        System.out.println(student);
+//        List<Student> list = service.studentList();
+//        System.out.println(list);
+        System.out.println("hello");
 
 
 
